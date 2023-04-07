@@ -1,87 +1,43 @@
-body{
-    margin: 0%;
-    padding: 0%;
-    background-image: url(back.gif);
-    background-size: cover ;
-    
-    background-repeat: no-repeat;
-}
-.loginbox{
-
-    width: 320px;
-    height: 420px;
-
-    top : 100px;
-    right  : 20px;
-    background : white;
-    colour : black;
-   position: absolute;
-   
-   transform: translate();
-    box size: border-box;
-    padding: 70px 40px;
-    
-}
-.avatar{
-     width: 100px;
-     height: 100px;
-     border-radius: 50%;
-     position: absolute;
-     
-     top: -50px;
-     left: calc(50% - 50px);
-}
-.h1{
-    padding-left: 80px;
-    text align:center;
-    font size: 22px;
-}
-.p1{
-    font-weight: bold;
-    font-size: 24px;
+body {
+	background-color: #2c3e50;
+	font-family: sans-serif;
+	color: #fff;
 }
 
-.in{
-    
-    width:100%;
-    background: transparent;
-   
+.login-box {
+	width: 300px;
+	margin: 100px auto;
+	background-color: #34495e;
+	padding: 20px;
+	border-radius: 5px;
+}
 
-    border-top: none;
-   border-left: none;
-   border-right: none;
-    outline:none;
-    height:40px;
+h1 {
+	text-align: center;
 }
-.in1{
-    width: 100%;
-    height:40px;
-  
-    border-top: none;
-    border-left: none;
-    border-right: none;
+
+form {
+	display: flex;
+	flex-direction: column;
 }
-.in2{
-    width:100%;
-    height: 40px;
-    border: none;
-    background: grey;
-    color: white(255, 255, 255, 0.182);
-    font-size: 22px;
-    border-radius: 20px;
-    
+
+label {
+	font-weight: bold;
+	margin-bottom: 10px;
 }
-.loginbox button:hover{
-    cursor: pointer;
-    background: rgb(83, 83, 199);
-    color: white;
+
+input[type="text"], input[type="password"] {
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: none;
 }
-.loginbox a{
-    text-decoration: none;
-    font size: 22px;
-    line height:20px;
-    color:black;
-}
-.loginbox a:hover{
-    color:rgb(75, 75, 243);
+
+input[type="submit"] {
+	background-color: #2980b9;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
 }

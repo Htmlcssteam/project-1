@@ -1,0 +1,44 @@
+.border
+{
+   background-color: #8D5BCD;
+  width: 1380px;
+  height: 680px;
+  border: 35px solid #8D5BCD;
+  padding: 5px;
+  margin: 5px;
+  }
+
+ .border2
+ {
+
+position: relative;
+border-radius: 50px;
+background-color: white;
+height: 680px;
+width: 1380px;
+}
+.B
+{
+	position: absolute;
+	top: 150px;
+	left: 710px;
+  height: 100px;
+  width: 110px;
+}
+.B2
+{
+  position: absolute;
+  top: 300px;
+  left: 830px;
+  height: 100px;
+  width: 110px;
+}
+.B8
+{
+  position: absolute;
+  top: 150px;
+  left: 560px;
+  height: 100px;
+  width: 110px;
+  background-color: "#DAF7A6";
+}
